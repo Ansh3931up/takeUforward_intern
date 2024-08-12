@@ -53,7 +53,7 @@ function BlogList() {
                 <div className="flex flex-col md:flex-row items-center gap-4 mt-4">
                     <input
                         type="text"
-                        placeholder="Enter Pincode"
+                        placeholder="Enter QuestionId"
                         onChange={(e) => debouncedCallBack(e)}
                         className="flex-1 p-2 border bg-blue-50 text-blue-500 rounded"
                     />
