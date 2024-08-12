@@ -9,7 +9,7 @@ import questionRouter from "../routes/question.routes.js";
 
 // Initialize express app
 const app = express();
-const allowedOrigin = 'http://localhost:5173';
+const allowedOrigin = 'https://take-uforward-intern.vercel.app';
 
 // Trust the proxy settings
 app.set("trust proxy", true);
