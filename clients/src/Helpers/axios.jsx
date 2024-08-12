@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASEURL="http://localhost:5050/api/v1";
+const BASEURL="https://takeuforward-intern.onrender.com/api/v1";
 
 const axiosInstance=axios.create();
 
